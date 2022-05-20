@@ -1,16 +1,27 @@
-'Use Strict'
-
+'use strict'
+ 
 var slideIndex = 1;
 showSlides(slideIndex);
+
+var slideIndex2 = 1; 
+showSlides2(slideIndex2);
  
 // Next/previous controls
 function plusSlides(n) {
  showSlides(slideIndex += n);
 }
+
+function plusSlides2(m){
+    showSlides2(slideIndex2 += m);
+}
  
 // Thumbnail image controls
 function currentSlide(n) {
  showSlides(slideIndex = n);
+}
+
+function currentSlide2(m){
+showSlides2(slideIndex2 = m);
 }
  
 function showSlides(n) {
@@ -29,3 +40,18 @@ function showSlides(n) {
  dots[slideIndex-1].className += " active";
 }
 
+function showSlides2(m) {
+    var i;
+    var slides2 = document.getElementsByClassName("mySlides2");
+    var dots2 = document.getElementsByClassName("dot");
+    if (m > slides2.length) {slideIndex2 = 1}
+    if (m < 1) {slideIndex2 = slides2.length}
+    for (i = 0; i < slides2.length; i++) {
+        slides2[i].style.display = "none";
+    }
+    for (i = 0; i < dots2.length; i++) {
+        dots2[i].className = dots2[i].className.replace(" active", "");
+    }
+    slides2[slideIndex2-1].style.display = "block";
+    dots2[slideIndex2-1].className += " active";
+}

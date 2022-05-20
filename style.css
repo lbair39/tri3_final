@@ -1,7 +1,7 @@
 * {box-sizing:border-box}
- body{
+ main{
      display: grid; 
-     grid-template-columns: 2fr 2fr ;
+     grid-template-columns:  1fr 2fr 2fr 1fr  ;
  }
 /* Slideshow container */
 .slideshow-container1 {
@@ -19,7 +19,7 @@
 .mySlides {
  display: none;
 }
-.theSlides{
+.mySlides2{
     display: none;
 }
  
@@ -70,13 +70,7 @@
     position: absolute;
     top: 0;
    }
-   .textnumber {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-   }
+ 
     
    /* The dots/bullets/indicators */
    .dot {
@@ -94,6 +88,8 @@
    .active, .dot:hover {
     background-color: #717171;
    }
+  
+  
   
     
    /* Fading animation */
