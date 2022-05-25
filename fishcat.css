@@ -1,0 +1,12 @@
+body{
+    font-family: Kanit;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+a:link{
+    text-decoration: none;
+ 
+}
+img{
+    padding: 2px;
+}
