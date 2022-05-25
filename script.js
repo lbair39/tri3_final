@@ -43,7 +43,7 @@ function showSlides(n) {
 function showSlides2(m) {
     var i;
     var slides2 = document.getElementsByClassName("mySlides2");
-    var dots2 = document.getElementsByClassName("dot");
+    var dots2 = document.getElementsByClassName("dot2");
     if (m > slides2.length) {slideIndex2 = 1}
     if (m < 1) {slideIndex2 = slides2.length}
     for (i = 0; i < slides2.length; i++) {
