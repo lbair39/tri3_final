@@ -1,0 +1,10 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+img {
+    padding: 2px;
+}
+#pictures {
+    margin: 20px;
+}
