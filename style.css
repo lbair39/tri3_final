@@ -4,9 +4,8 @@
      display:grid;
      grid-template-columns: 1fr 2fr 2fr 1fr;
  }
-.slideshow-container3{
 
-body{
+body {
   font-family: Kanit;
 }
 
@@ -16,7 +15,6 @@ body{
  position: relative;
  margin: auto;
 }
-.slideshow-container4{
 
 .slideshow-container2 {
     max-width: 350px;
@@ -66,8 +64,6 @@ body{
  border-radius: 3px 0 0 3px;
 }
 
-
-.dot3, .dot4 {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -120,7 +116,7 @@ body{
     animation-name: fade;
 }
 
-   }
+   
    .dot2{
     cursor: pointer;
     height: 15px;
@@ -188,6 +184,6 @@ body{
     
    /* Fading animation */
    .fade {
-    -webkit-animation-name: fade;
+    animation-name: fade;
    }   
 
