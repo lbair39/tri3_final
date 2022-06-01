@@ -3,11 +3,15 @@ body{
     display: grid;
     grid-template-columns: 2fr 2fr;
 }
+h5{
+    font-size: 21px;
+}
 h1{
     text-shadow: rgb(7, 127, 224) 1px 1px;
 }
 a:link{
     text-decoration: none;
+    text-align: center;
  
 }
 
@@ -31,4 +35,7 @@ a:link{
 
 img{
     padding: 2px;
+}
+#pictures {
+    padding: 20px;
 }

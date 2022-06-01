@@ -6,6 +6,9 @@ body {
 h1{
     text-shadow: rgb(7, 127, 224) 1px 1px;
 }
+h5{
+    font-size: 21px;
+}
 img {
     padding: 2px;
 }
