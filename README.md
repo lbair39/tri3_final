@@ -18,4 +18,6 @@ Team Agreement
 # User stories 
 - I want to be able to click on images and have them take me to the page I want so that I can decide whether or not I want the animal 
 - I want the images to carousel so that I can clearly see all of the options available
+# Link to wireframe
+- https://jamboard.google.com/d/1uYIiOk71I2nYVoYBGsdadq-SkGY67YO4WDDYWoMkRSE/viewer?f=0
 
